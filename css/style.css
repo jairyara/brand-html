@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #7ac22d;
+  padding: 10px;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  padding: 0 20px 0 0px;
+  list-style: none;
+}
+
+a {
+  color:#FFF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ccc;
+}
+
+
+/* Main section */
+
+.main-section {
+  padding: 100px 250px 250px;
+  text-align: center;
+}
+
+.products {
+  background-image: url("https://static.platzi.com/media/tmp/class-files/git/Desarrollo_web/Desarrollo_web-c10/images/curve.png");
+  height: 50px;
+  background-size: cover;
+  background-position: center top;
+  display: flex;
+  justify-content: center;
+  padding: 120px;
+}
+
+.product {
+  padding: 10px;
+  margin-top: -300px;
+}
+
+.product .content {
+  padding: 15px;
+  background-color: white;
+  box-shadow: 0 0 2px #c1bcbc;
+}
+
+.img-content {
+  text-align: center;
+}
+
+.buy {
+  color: white;
+  background-color: #7ac22d;
+  border-radius: 3px;
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  border: 0;
+  cursor: pointer;
+}
+
+.product:hover .content {
+  background-color: #eee;
+  transform: scale(1.03);
+  transition: .3s;
+}
+
+.buy:hover {
+  background-color: #5e9e22;
+  transform: scale(1.03);
+  transition: .5s;
+}
+
+
+/*   benefits */
+.benefits {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  padding: 5%;
+  border-bottom: 2px solid #eee;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.img-benefits {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+.title {
+  text-align: center;
+}
+
+.benefit {
+  margin-left: 10px;
+  height: inherit;
+  padding: 20px;
+}
+
+.benefit:hover {
+  background-color: #eee;
+  border-radius: 5px;
+  transform: scale(1.1);
+  transition: .8s;
+}
+
+/* menciones */
+
+.mentions {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  padding: 5%;
+}
+
+.people {
+  text-align: center;
+}
+
+.mention {
+  height: inherit;
+  max-width: 250px;
+  margin-left: 10px;
+  padding: 20px;
+}
+
+.mention:hover {
+  background-color: #eee;
+  border-radius: 5px;
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+
+.footer {
+  background-color: #313337;
+  color: #fff;
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 0 30px;
+}
+
+footer a {
+  font-size: 16px;
+}
+
+footer h3 {
+  font-size: 16px;
+}
+
+
+.title-section {
+  font-size: 20px;
+  margin: 30px 0 0 0;
+  padding: 30px 0 0 0;
+}
+
+p {
+  font-size: 14px;
+}
