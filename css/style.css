@@ -89,6 +89,7 @@ a:hover {
   background-color: #5e9e22;
   transform: scale(1.03);
   transition: .5s;
+  cursor: pointer;
 }
 
 
@@ -186,4 +187,74 @@ footer h3 {
 
 p {
   font-size: 14px;
+}
+
+/*------Products-----*/
+
+.title-products {
+  text-align: left;
+  margin: 20px 70px;
+  padding: 20px 70px;
+}
+
+.products-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-imageRight {
+  margin: 0 20px 20px 115px;
+  padding: 0 20px 20px 115px;
+}
+
+.product-contentRight {
+  margin: 0 70px 20px 20px;
+  padding: 0 70px 20px 20px;
+  height: 115px;
+}
+
+.product-contentLeft {
+  margin: 0 20px 20px 70px;
+  padding: 0 20px 20px 70px;
+  height: 115px;
+}
+
+.product-imageLeft {
+  margin: 0 115px 20px 20px;
+  padding: 0 115px 20px 20px;
+}
+
+.buy-product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 40px;
+  width: 100%;
+  background-color: #FFF;
+  border: 0;
+  border-radius: 3px;
+}
+
+.products-items:hover  {
+  background-color: #eee;
+}
+
+.products-items:hover .buy-product {
+  background-color: #7ac22d;
+}
+
+.products-items .buy-product:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #7ac22d;
+}
+
+.buy-product:hover {
+  background-color: #5e9e22;
+  transform: scale(1.03);
+  transition: .5s;
+  cursor: pointer;
 }
