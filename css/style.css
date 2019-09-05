@@ -156,8 +156,11 @@ a:hover {
   max-width: 250px;
   margin-left: 10px;
   padding: 20px;
+  background-color: #eee;
+  border-radius: 5px;
 }
 
+/* 
 .section-wrapper:hover .mention {
   background-color: #eee;
   transition: .5s ease;
@@ -169,6 +172,7 @@ a:hover {
   transform: scale(1.05);
   transition: 0.5s;
 }
+*/
 
 
 .footer {
