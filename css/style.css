@@ -8,6 +8,8 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+/* --- Header --- */
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -38,7 +40,7 @@ a:hover {
 }
 
 
-/* Main section */
+/* --- Main section --- */
 
 .main-section {
   padding: 100px 250px 250px;
@@ -95,7 +97,7 @@ a:hover {
 }
 
 
-/*   benefits */
+/* --- Benefits --- */
 .benefits {
   display: flex;
   justify-content: space-between;
@@ -126,6 +128,7 @@ a:hover {
   padding: 20px;
 }
 
+/* --- Hover benefit card
 .section-wrapper:hover .benefit {
   background-color: #eee;
   transition: .5s ease;
@@ -138,7 +141,9 @@ a:hover {
   transition: .3s;
 }
 
-/* menciones */
+*/
+
+/* --- Mentions --- */
 
 .mentions {
   display: flex;
@@ -160,7 +165,7 @@ a:hover {
   border-radius: 5px;
 }
 
-/* 
+/*  Hover mentions cards
 .section-wrapper:hover .mention {
   background-color: #eee;
   transition: .5s ease;
@@ -174,6 +179,8 @@ a:hover {
 }
 */
 
+
+/* --- Footer --- */
 
 .footer {
   background-color: #313337;
@@ -194,6 +201,7 @@ footer h3 {
   font-size: 16px;
 }
 
+/* --- General Style --- */
 
 .title-section {
   font-size: 20px;
@@ -205,7 +213,7 @@ p {
   font-size: 14px;
 }
 
-/*------Products-----*/
+/*--- Products landing ---*/
 
 .title-products {
   text-align: left;
@@ -224,6 +232,10 @@ p {
   padding: 0 20px 20px 115px;
 }
 
+.product-imageLeftResponsive {
+  display: none;
+}
+
 .product-contentRight {
   margin: 0 70px 20px 20px;
   padding: 0 70px 20px 20px;
@@ -234,6 +246,10 @@ p {
   margin: 0 20px 20px 70px;
   padding: 0 20px 20px 70px;
   height: 115px;
+}
+
+.description-product {
+  margin-bottom: 10px;
 }
 
 .product-imageLeft {
@@ -251,7 +267,8 @@ p {
   background-color: #FFF;
   border: 0;
   border-radius: 3px;
-  color: #FFF;
+  color: #000;
+  border: 1px solid #7ac22d;
 }
 
 .products-items:hover  {
@@ -260,6 +277,8 @@ p {
 
 .products-items:hover .buy-product {
   background-color: #7ac22d;
+  color: #FFF;
+  border: none;
 }
 
 .products-items .buy-product:hover {
@@ -271,18 +290,19 @@ p {
 
 .buy-product:hover {
   background-color: #5e9e22;
+  color: #FFF;
   transform: scale(1.03);
   transition: .5s;
   cursor: pointer;
 }
 
-/* -------  Payment ------- */
+/* ---  Payment landing --- */
 
 .payment-product{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5%;
+  padding: 7%;
 }
 
 .product-content {
@@ -338,12 +358,7 @@ p {
   cursor: pointer;
 }
 
-input:valid {
-  border: 1px solid #5e9e22;
-}
-
-
-
+/* --- Success - landing --- */
 
 .sucess {
   background: #313337;
@@ -352,13 +367,13 @@ input:valid {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+}   
 
 .sucess-payment {
   text-align: center;
 }
 
-/* ----- Faqs -----*/
+/* --- Faqs - landing ---*/
 
 .faqs {
   padding: 5% 10%;

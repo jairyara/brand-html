@@ -1,7 +1,11 @@
 @media (max-width: 640px) {
+
+    /* --- Index Responsive --- */
+
     .products {
         display: inherit;
         height: auto;
+        padding: 20px;
     }
 
     .product {
@@ -12,12 +16,79 @@
         padding: 5%;
     }
 
+    h1 {
+        font-size: 1.5em;
+    }
+
     .benefits, .mentions {
         display: inherit;
+    }
+
+    .benefits {
+        text-align: center;
     }
 
     .mention {
         width: auto;
         max-width: inherit;
+        background: #fff;
+        text-align: center;
     }
+
+    .footer a, .footer h3 {
+        font-size: 12px;
+    }
+
+    /* --- Product Responsive --- */
+
+    .title-products {
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .products-items {
+        display: inherit;
+        height: auto;
+        padding: 20px;
+    }
+
+    .product-imageRight, .product-imageLeftResponsive {
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .product-contentRight, .product-contentLeft {
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+        height: auto;
+        width: auto;
+    }
+
+    .product-imageLeft {
+        display: none;
+    }
+
+    /* --- Payment responsive --- */
+
+    .payment-product {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .product-content {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .form-wrapper {
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+    }
+
 }
