@@ -328,7 +328,7 @@ p {
 
 .label-container {
   font-size: 12px;
-  padding: 10px;
+  padding: 10px 0;
 }
 
 .input-container input {
@@ -360,7 +360,7 @@ p {
 
 /* --- Success - landing --- */
 
-.sucess {
+.success {
   background: #313337;
   color:#eee;
   padding: 15%;
@@ -369,8 +369,25 @@ p {
   align-items: center;
 }   
 
-.sucess-payment {
+.success-payment {
   text-align: center;
+}
+
+.success-payment img {
+  padding: 0 0 10px;
+}
+
+.home, .subtitle-success {
+  padding: 0 0 10px;
+}
+
+p a {
+  text-decoration: underline #5e9e22;
+  color: #5e9e22;
+}
+
+p a:hover {
+  text-decoration: underline #ccc;
 }
 
 /* --- Faqs - landing ---*/
